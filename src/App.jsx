@@ -1,7 +1,10 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Themes from "./components/Themes"
+import Video from "./components/Video"
 import Directorsdesk from "./components/Directorsdesk"
+import Scroll from "./components/Scroll"
+import Scroll1 from "./components/Scroll1"
 import ParticleBackground from 'react-particle-backgrounds'
 
 const App = () => {
@@ -40,7 +43,10 @@ const App = () => {
           <Navbar/>
           <Hero/>
           <Directorsdesk />
+          <Video />
           <Themes/>
+          <Scroll />
+          <Scroll1 />
       </main>
     </div>
   )
