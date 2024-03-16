@@ -16,8 +16,8 @@ function Images({ text, url }) {
   
 const Themes = () => {
   return (
-    <section className="w-full ">  
-        <h1 className="text-4xl font-serif lg:text-7xl my-4 tracking-wider text-center">
+    <section className="w-full my-16 ">  
+        <h1 className="text-center text-2xl lg:text-5xl font-bolder my-8">
             Events
         </h1>
         <div className="my-24">
