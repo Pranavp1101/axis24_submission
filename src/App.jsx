@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Themes from "./components/Themes"
+import Directorsdesk from "./components/Directorsdesk"
 import ParticleBackground from 'react-particle-backgrounds'
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
       <main className="max-w-7xl z-10 mx-auto ">
           <Navbar/>
           <Hero/>
+          <Directorsdesk />
           <Themes/>
       </main>
     </div>
