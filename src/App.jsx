@@ -2,6 +2,7 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Themes from "./components/Themes"
+import Video from "./components/Video"
 import Directorsdesk from "./components/Directorsdesk"
 import ParticleBackground from 'react-particle-backgrounds'
 
@@ -41,6 +42,7 @@ const App = () => {
           <Navbar/>
           <Hero/>
           <Directorsdesk/>
+          <Video/>
           <Themes/>
           <Footer/>
       </main>
