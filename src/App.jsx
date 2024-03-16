@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Themes from "./components/Themes"
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <main className="max-w-7xl m-auto">
           <Navbar/>
           <Hero/>
+          <Themes/>
       </main>
     </div>
   )
