@@ -1,9 +1,14 @@
-import Footer from "./components/Footer"
-function App() {
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
+
+const App = () => {
   return (
-      <main className="text-blue-400">
-        <Footer/>
+    <div className="w-full text-white font-quicksand bg-black min-h-screen">
+      <main className="max-w-7xl m-auto">
+          <Navbar/>
+          <Hero/>
       </main>
+    </div>
   )
 }
 
