@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Themes from "./components/Themes"
@@ -35,18 +36,18 @@ const App = () => {
   }
 
   return (
-    <div className="w-full relative text-white font-quicksand bg-black min-h-screen">
-      <div className="absolute z-0 w-screen h-full">
-        <ParticleBackground settings={settings} />
+    <div className="w-full relative text-white overflow-hidden font-quicksand bg-black min-h-screen">
+      <div className="absolute z-10 w-screen h-full">
+        <ParticleBackground className="z-0 relative" settings={settings} />
       </div>
-      <main className="max-w-7xl z-10 mx-auto ">
+      <main className="max-w-7xl relative z-10 mx-auto ">
           <Navbar/>
           <Hero/>
           <Directorsdesk />
           <Video />
           <Themes/>
           <Scroll />
-          <Scroll1 />
+          <Footer />
       </main>
     </div>
   )

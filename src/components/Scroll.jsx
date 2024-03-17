@@ -12,7 +12,7 @@ function Scroll() {
         const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
       
   return (
-    <section ref={targetRef} className="relative h-[300vh] bg-black mt-16 -mb-10">
+    <section ref={targetRef} className="relative h-[300vh] bg-black mt-16">
     <div className="sticky top-0 flex h-screen items-center overflow-hidden">
       <motion.div style={{ x }} className="flex gap-4">
         {cards.map((card) => {

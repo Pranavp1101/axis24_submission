@@ -1,23 +1,20 @@
-import React from 'react'
-
 function Directorsdesk() {
   return (
     <div className='bg-black'>
         <div className='flex flex-col md:flex-row justify-around items-center py-8 md:py-16'>
-            <div className='text-white bg-slate-800 mt-2 md:py-8 py-3 px-10 md:px-16 rounded-2xl my-2'>
-                <h1 className='md:text-lg md:-ml-7 underline underline-offset-4 md:underline-offset-8 decoration-blue-500'>Events</h1>
-                <h2 className='text-xl md:text-8xl text-blue-500 md:-ml-7'>40+</h2>
+            <div className='text-white flex w-full max-w-64 flex-col items-center align-middle text-center bg-slate-900 md:py-8 py-3 px-10 md:px-16 rounded-2xl my-2'>
+                <h1 className='md:text-lg text-center font-bold'>Events</h1>
+                <h2 className='text-xl md:text-5xl text-center text-blue-600'>40+</h2>
             </div>
-            <div className='text-white bg-slate-800 mt-2 md:py-8 py-3 px-10 md:px-16 rounded-2xl my-2'>
-                <h1 className='md:text-lg md:-ml-7 underline underline-offset-4 md:underline-offset-8 decoration-blue-500 '>Colleges</h1>
-                <h2 className='text-xl md:text-8xl md:-ml-7 text-blue-500'>150+</h2>
+            <div className='text-white w-full max-w-64 text-center flex flex-col items-center align-middle bg-slate-900 md:py-8 py-3 px-10 md:px-16 rounded-2xl my-2'>
+                <h1 className='md:text-lg font-bold text-center'>Colleges</h1>
+                <h2 className='text-xl md:text-5xl text-center text-blue-600'>150+</h2>
             </div>
-            <div className='text-white bg-slate-800 mt-2 md:py-8 py-3 px-10 md:px-16 rounded-2xl my-2'>
-                <h1 className='md:text-lg md:-ml-7 underline underline-offset-4 md:underline-offset-8 decoration-blue-500'>Footfall</h1>
-                <h2 className='text-xl md:text-8xl md:-ml-7 text-blue-500'>20000+</h2>
+            <div className='text-white w-full max-w-64 text-center flex flex-col items-center align-middle bg-slate-900 md:py-8 py-3 px-10 md:px-16 rounded-2xl my-2'>
+                <h1 className='md:text-lg font-bold text-center'>Footfall</h1>
+                <h2 className='text-xl md:text-5xl text-center text-blue-600'>20000+</h2>
             </div>
         </div>
-
         <div className='flex flex-col md:flex-row justify-around p-8 md:px-20 gap-16'>
             <img src="https://axisvnit.in/images/padolesir.jpg" alt="" width={650} height='auto' />
             <div className='text-white md:m-8'>
@@ -26,7 +23,6 @@ function Directorsdesk() {
             </div>
         </div>
 
-        <hr className='text-zinc-700 py-2' />
     </div>
   )
 }
