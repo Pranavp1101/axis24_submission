@@ -43,8 +43,8 @@ const App = () => {
       <main className="max-w-7xl relative z-10 mx-auto ">
           <Navbar/>
           <Hero/>
-          <Directorsdesk />
-          <Video />
+          <Directorsdesk/>
+          <Video/>
           <Themes/>
           <Scroll />
           <Footer />
